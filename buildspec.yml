@@ -45,7 +45,7 @@ phases:
           kind: Service
           metadata:
             name: $IMAGE_REPO_NAME
-            namespace: teamc
+            namespace: hoirias
             labels:
               app: $IMAGE_REPO_NAME
           spec:
@@ -63,7 +63,7 @@ phases:
           kind: Deployment
           metadata:
             name: $IMAGE_REPO_NAME
-            namespace: teamc
+            namespace: hoirias
             labels:
               app: $IMAGE_REPO_NAME
           spec:
