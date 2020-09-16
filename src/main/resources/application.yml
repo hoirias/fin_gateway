@@ -63,7 +63,7 @@ spring:
           uri: http://mypage:8080
           predicates:
             - Path= /mypages/**
-        - id: coupon
+        - id: stastics
           uri: http://stastics:8080
           predicates:
             - Path= /stasticses/**
